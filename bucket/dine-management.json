@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "description": "Effortless restaurant operations with intuitive dine management software.",
+  "homepage": "https://dine.helloanwar.com",
+  "license": "MIT",
+  "url": "https://github.com/anwarpro/dine-management/releases/download/v1.0.0/dine-management-1.0.0.msi",
+  "hash": "sha256:3ee0fc26c16cba8a761190b45b90638f05b6ab29bfbf373af61e038e4e51dbce",
+  "extract_dir": "",
+  "bin": "dine-management.exe",
+  "checkver": {
+    "url": "https://github.com/anwarpro/dine-management/releases/latest"
+  },
+  "autoupdate": {
+    "url": "https://github.com/anwarpro/dine-management/releases/download/v$version/dine-management-$version.msi",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
