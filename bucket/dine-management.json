@@ -4,7 +4,7 @@
   "homepage": "https://dine.helloanwar.com",
   "license": "MIT",
   "url": "https://github.com/anwarpro/dine-management/releases/download/v1.0.0/dine-management-1.0.0.msi",
-  "hash": "sha256:b7df5bda83de2145b0993ef1e962cfe80f0b976b109a45e73d59fea5db20b7a2",
+  "hash": "sha256:b0eb5d0517bf637c4c30839d803cfe3b55f7bfd53351f3095ef9244ce7073bcb",
   "extract_dir": "",
   "bin": "dine-management.exe",
   "checkver": {
